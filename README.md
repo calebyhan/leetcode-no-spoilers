@@ -7,10 +7,9 @@ A Chrome extension (Manifest V3) that prevents code spoilers on LeetCode by auto
 - **Automatic Code Hiding**: Automatically hides substantial code content (editors, solution blocks) while keeping small inline code and problem descriptions visible
 - **Smart Content Detection**: Uses intelligent heuristics to identify substantial code content vs. problem descriptions and small code snippets
 - **Smart Link Interception**: Shows confirmation dialogs when clicking on code/solution/editorial links
-- **Integrated Control Buttons**: Three buttons positioned to the left of the bookmark button:
-  - **Show Code**: Temporarily reveal all hidden code content
-  - **Hide Code**: Hide code content again after revealing it
-  - **Clear Code**: Permanently replace code content with a placeholder
+**Integrated Control Buttons**: Two buttons positioned to the left of the bookmark button:
+   - **Show Code**: Temporarily reveal all hidden code content
+   - **Hide Code**: Hide code content again after revealing it
 - **Dynamic Layout Support**: Full compatibility with LeetCode's new dynamic layout
 - **SPA Support**: Handles LeetCode's single-page application route changes
 - **Cross-Domain**: Works on both `leetcode.com` and `leetcode.cn`
@@ -51,7 +50,7 @@ A Chrome extension (Manifest V3) that prevents code spoilers on LeetCode by auto
 
 Once installed, you'll see two buttons positioned to the left of the bookmark button (or in the top-right corner as fallback):
 
-#### �️ Show Code
+#### 👁️ Show Code
 - **Purpose**: Temporarily reveal all hidden code content
 - **Behavior**:
   - Removes blur effect from all hidden code elements
